@@ -1,0 +1,28 @@
+main {
+  background-color: red;
+  width: 320px;
+  height: 320px;
+}
+.box1 {
+  width: 60px;
+  height: 200px;
+  position: absolute;
+  top: 60px;
+  left: 135px;
+  /* Normalde olculere gore 130px bosluk verdim ancak goruntu cok az sola daha yakındı o yuzden 135px vererek ayarladım */
+  bottom: 60px;
+  right: 130px;
+  background-color: white;
+}
+.box2 {
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 130px;
+  left: 65px;
+  /* Normalde olculere gore 60px bosluk verdim ancak goruntu cok az sola daha yakındı o yuzden 65px vererek ayarladım */
+  bottom: 60px;
+  bottom: 130px;
+  right: 60px;
+  background-color: white;
+}
