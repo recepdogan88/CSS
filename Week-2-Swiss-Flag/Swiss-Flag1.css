@@ -2,7 +2,6 @@ main {
   background-color: red;
   width: 320px;
   height: 320px;
-  transform: translate(100px);
 }
 .box1 {
   width: 60px;

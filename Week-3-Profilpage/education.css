@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(226, 240, 239);
+}
+div {
+  width: 450;
+  height: 400px;
+  position: absolute;
+  margin: 50px;
+}
+img {
+  width: 50px;
+}
+tr,
+td {
+  width: 250px;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  border-bottom: 1px solid rgb(109, 142, 202);
+}
