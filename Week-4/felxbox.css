@@ -1,0 +1,113 @@
+#ana {
+  display: flex;
+  width: 400px;
+  height: 730px;
+  flex-direction: column;
+  margin: auto;
+  border: solid;
+  border-color: rgb(87, 80, 80);
+}
+.ilk {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  background-color: #74b9ff;
+}
+.iki {
+  width: 400px;
+  height: 400px;
+}
+section > .fotodiv {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: -100px;
+  background: whitesmoke;
+  color: grey;
+}
+h4,
+h5 {
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 10px;
+  color: grey;
+}
+h4 {
+  margin-bottom: 0px;
+  color: grey;
+}
+h5 + div {
+  width: 300px;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.cokludiv div {
+  width: 300px;
+  height: 50px;
+  background: whitesmoke;
+}
+div > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: -75px;
+  margin-left: 75px;
+}
+h2,
+h3 {
+  text-align: center;
+  margin: 1px;
+}
+.ilk div {
+  width: 50px;
+  height: 50px;
+}
+#tepe1 {
+  margin-right: 300px;
+}
+#tepe2 {
+  justify-content: center;
+}
+#tepe2 i {
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+}
+#tepe1 i {
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+}
+.icons,
+.icons li {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  margin: 5px 20px 10px 5px;
+  font-size: 25px;
+  color: gray;
+}
+.cokludiv div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div i {
+  margin-top: 14px;
+  font-size: 25px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 25px;
+  margin: 10px;
+  color: gray;
+}
