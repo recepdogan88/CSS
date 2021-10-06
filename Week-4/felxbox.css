@@ -1,15 +1,9 @@
 body {
   display: flex;
   flex-direction: row;
+  background-color: whitesmoke;
 }
-.soltaraf {
-  width: 38%;
-  height: 900px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.sagtaraf {
+.sagsoltaraf {
   width: 38%;
   height: 900px;
   display: flex;
@@ -17,14 +11,13 @@ body {
   justify-content: space-between;
 }
 
-#orta {
-  margin: auto;
+#ana {
+  margin-top: 50px;
+  margin-left: 250px;
   display: flex;
   flex-direction: column;
   width: 400px;
-  height: 730px;
-
-  border: solid 1px gray;
+  height: auto;
 }
 p,
 i {
@@ -40,21 +33,23 @@ i {
 .iki {
   width: 400px;
   height: 400px;
+  background-color: white;
 }
 section > .fotodiv {
   display: flex;
   flex-direction: column;
   width: 300px;
-  height: 200px;
+  height: auto;
   margin-left: 50px;
   margin-top: -100px;
-  background: whitesmoke;
+  background: white;
   color: grey;
+  box-shadow: 5px 5px #f5f3f3;
 }
 h4,
 h5 {
   font-size: 16px;
-  margin-left: 5px;
+  margin-left: 20px;
   margin-top: 10px;
   color: grey;
 }
@@ -73,7 +68,11 @@ h5 + div {
 .cokludiv div {
   width: 300px;
   height: 50px;
-  background: whitesmoke;
+  background: white;
+  box-shadow: 5px 5px #f5f3f3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 div > img {
   width: 150px;
@@ -117,10 +116,8 @@ h3 {
   font-size: 25px;
   color: gray;
 }
-.cokludiv div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.cokludiv {
+  margin-top: 5px;
 }
 div i {
   margin-top: 14px;
@@ -130,9 +127,13 @@ div i {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   font-size: 25px;
-  margin: 10px;
   color: gray;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin-top: 0px;
 }
 .bal1 {
   width: 100px;
@@ -163,7 +164,7 @@ div i {
   border-radius: 50%;
   background-color: blue;
   overflow: hidden;
-  margin-left: 160px;
+  margin-left: 260px;
   margin-top: -25px;
   opacity: 0.3;
 }
@@ -175,6 +176,6 @@ div i {
   background-color: blue;
   overflow: hidden;
   margin-left: 280px;
-  margin-bottom: -150px;
+  margin-bottom: -250px;
   opacity: 0.3;
 }
