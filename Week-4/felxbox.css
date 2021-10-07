@@ -28,7 +28,9 @@ i {
   height: 300px;
   display: flex;
   flex-direction: row;
-  background-color: #74b9ff;
+  background-image: url(./Screenshot_2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .iki {
   width: 400px;
@@ -80,7 +82,11 @@ div > img {
   border-radius: 50%;
   margin-top: -75px;
   margin-left: 75px;
+
+  cursor: pointer;
+  transition: 0.5s;
 }
+
 h2,
 h3 {
   text-align: center;
@@ -164,7 +170,7 @@ div i {
   border-radius: 50%;
   background-color: blue;
   overflow: hidden;
-  margin-left: 260px;
+  margin-left: 230px;
   margin-top: -25px;
   opacity: 0.3;
 }
@@ -175,7 +181,13 @@ div i {
   border-radius: 50%;
   background-color: blue;
   overflow: hidden;
-  margin-left: 280px;
+  margin-left: 220px;
   margin-bottom: -250px;
   opacity: 0.3;
+}
+i:hover {
+  color: blue;
+}
+img:hover {
+  transform: scale(0.9);
 }
