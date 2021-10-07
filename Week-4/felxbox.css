@@ -190,7 +190,7 @@ div i {
 i:hover {
   color: blue;
 }
-img:hover {
+.fotoo:hover {
   transform: scale(0.9);
 }
 .fotoo > i {
