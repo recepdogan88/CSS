@@ -82,7 +82,6 @@ div > img {
   border-radius: 50%;
   margin-top: -75px;
   margin-left: 75px;
-
   cursor: pointer;
   transition: 0.5s;
 }
@@ -185,9 +184,28 @@ div i {
   margin-bottom: -250px;
   opacity: 0.3;
 }
+
 i:hover {
   color: blue;
 }
 img:hover {
   transform: scale(0.9);
+}
+.fotoo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: -75px;
+  margin-left: 75px;
+  background-image: url(./profilfotoGL.jpeg);
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+.fotoo > i {
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+  left: 110px;
+  top: 110px;
+  color: aqua;
 }
