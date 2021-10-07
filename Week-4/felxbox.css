@@ -10,7 +10,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
 #ana {
   margin-top: 50px;
   margin-left: 250px;
@@ -28,6 +27,7 @@ i {
   height: 300px;
   display: flex;
   flex-direction: row;
+  background-color: #74b9ff;
   background-image: url(./Screenshot_2.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -47,6 +47,7 @@ section > .fotodiv {
   background: white;
   color: grey;
   box-shadow: 5px 5px #f5f3f3;
+  border-radius: 20px;
 }
 h4,
 h5 {
@@ -169,6 +170,7 @@ div i {
   border-radius: 50%;
   background-color: blue;
   overflow: hidden;
+  margin-left: 260px;
   margin-left: 230px;
   margin-top: -25px;
   opacity: 0.3;
@@ -180,16 +182,24 @@ div i {
   border-radius: 50%;
   background-color: blue;
   overflow: hidden;
+  margin-left: 280px;
   margin-left: 220px;
   margin-bottom: -250px;
   opacity: 0.3;
 }
-
 i:hover {
   color: blue;
 }
 img:hover {
   transform: scale(0.9);
+}
+.fotoo > i {
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+  left: 100px;
+  top: 50px;
+  color: aqua;
 }
 .fotoo {
   width: 150px;
