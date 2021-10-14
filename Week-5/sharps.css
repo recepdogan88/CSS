@@ -3,7 +3,6 @@
   height: 300px;
   margin: auto;
   margin-top: 10%;
-
   display: flex;
   flex-direction: row;
 }
@@ -13,6 +12,7 @@
   width: 33%;
   height: 99%;
 }
+
 main > #left-container {
   display: flex;
   flex-direction: row;
@@ -77,21 +77,21 @@ main > #left-container {
   border-radius: 0px 0px 0px 70px;
   background-color: #f7f3d7;
 }
+
+#right-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #191210;
+}
 .rightbottom-circle {
   width: 50%;
   height: 100%;
   border-radius: 0px 0px 70px 0px;
   background-color: palevioletred;
 }
-#right-container {
-  display: flex;
-  flex-direction: row;
-  background-color: #191210;
-}
 .ortakısım {
   width: 40%;
   height: 70%;
-
   margin-top: 40px;
 }
 .sol,
@@ -157,6 +157,5 @@ main > #left-container {
   margin-left: 10px;
   border-radius: 70px 70px 0px 0px;
   background-color: #191210;
-
   justify-content: flex-end;
 }
