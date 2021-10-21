@@ -284,9 +284,11 @@ footer {
   background-color: white;
 }
 .footer2 {
-  width: 400px;
+  width: 420px;
   height: 40px;
   margin-left: 2rem;
+  display: flex;
+  justify-content: space-between;
 }
 i {
   font-size: 40px;
